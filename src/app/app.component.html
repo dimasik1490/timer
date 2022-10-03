@@ -1,0 +1,18 @@
+<div class="timer">
+  <div class="timer_start" *ngIf="displayTimer;">  
+    {{displayTimer}} </div>
+
+  <section class="timer_button">
+    <button class="btn" (click)="start()">
+      {{startStop}}
+    </button>
+
+    <button class="btn" (click)="reset()">
+      Reset
+    </button>
+
+    <button class="btn" (click)="debounce()">
+      Wait
+    </button>
+  </section>
+</div>

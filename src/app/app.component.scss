@@ -1,0 +1,19 @@
+.timer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.displayTimer{
+    font-size: 2rem;
+    padding: 3em;
+}
+
+.btn{
+    padding: .1em 2em;
+    outline: none;
+    border-radius: .5em;
+    margin-left: .5em
+}
